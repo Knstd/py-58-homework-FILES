@@ -20,8 +20,8 @@ def cooking_book(file_name):
     return cook_book
 
 
-# pprint(cooking_book(file_name), width=120, sort_dicts=False)
-# print()
+pprint(cooking_book(file_name), width=120, sort_dicts=False)
+print()
 
 
 def get_shop_list_by_dishes(dishes, person_count):
@@ -38,7 +38,7 @@ def get_shop_list_by_dishes(dishes, person_count):
             return f'Такого блюда нет - {dish}'
     return ingridient_list
 
-# pprint(get_shop_list_by_dishes(['Омлет', 'Омлет', 'Фахитос'], 8))
+pprint(get_shop_list_by_dishes(['Омлет', 'Омлет', 'Фахитос'], 8))
 
 FILES_CATALOG_NAME = 'files'
 FILE_1_NAME = '1.txt'
